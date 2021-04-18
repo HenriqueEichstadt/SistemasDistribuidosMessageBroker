@@ -3,7 +3,7 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
 public class Produtor {
-    private static int numeroMensagens = 2000;
+    private static int numeroMensagens = 1000;
 
     public static void main(String[] args) throws NamingException, JMSException {
         InitialContext context = new InitialContext();
